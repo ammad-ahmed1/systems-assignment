@@ -1,22 +1,17 @@
-import React from 'react';
+import React from "react";
 
-const Button = ({
-  onClick,
-  children,
-  btnStyle = '', // Default to an empty string
-  type = 'outlined', // Example type prop for styling
-}) => {
+const Button = ({ onClick, children, btnStyle = "", type = "outlined" }) => {
   const baseStyles = `
     flex 
-    justify-center 
-    mx-auto 
+   
     text-lg 
     tracking-wider 
     font-bold 
-    uppercase 
-    text-center 
+    text-p1
+    tracking-tight
+    // text-center 
     px-5 
-    py-2
+    py-4
   `;
 
   const outlinedStyles = `
@@ -36,13 +31,10 @@ const Button = ({
   `;
 
   // Choose styles based on the type prop
-  const styles = type === 'filled' ? filledStyles : outlinedStyles;
+  const styles = type === "filled" ? filledStyles : outlinedStyles;
 
   return (
-    <button
-      className={`${baseStyles} ${styles} ${btnStyle}`} // Combine styles
-      onClick={onClick}
-    >
+    <button className={`${baseStyles} ${styles} ${btnStyle}`} onClick={onClick}>
       {children}
     </button>
   );

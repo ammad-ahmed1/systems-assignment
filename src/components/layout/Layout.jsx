@@ -9,16 +9,20 @@ import Services from "../Services";
 import WeOffer from "../WeOffer";
 import Heading from "../shared/Heading";
 import ContactUsForm from "../ContactUsForm";
+import Hero from "../Hero";
 
 const Layout = () => {
   return (
     <>
       <Navbar />
       <div className="w-full ">
-        <Heading classNameProp="text-h2 font-serif my-6 text-left px-4 sm:px-6 md:px-10 lg:px-[350px]">
-          Our digital agency will tailor marketing strategies to meet your
-          unique business needs. Your digital transformation starts here!
-        </Heading>
+        <Hero />
+        <div className="w-60p  py-0 mx-auto">
+          <Heading classNameProp="text-h2  font-serif my-6 ">
+            Our digital agency will tailor marketing strategies to meet your
+            unique business needs. Your digital transformation starts here!
+          </Heading>
+        </div>
 
         <div className="w-90p mx-auto">
           <WeOffer />
