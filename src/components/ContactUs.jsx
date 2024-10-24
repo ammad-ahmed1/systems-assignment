@@ -16,9 +16,14 @@ const ContactUs = () => {
         Contact us now to discover how we can transform your digital strategy
         and propel your business forward.
       </Paragraph>
-      <Button onClick={() => console.log("Outlined Button Clicked")}>
-        Contact Us
-      </Button>
+      <div className="mx-auto">
+        <Button
+          onClick={() => console.log("Outlined Button Clicked")}
+          btnStyle="mx-auto"
+        >
+          Contact Us
+        </Button>
+      </div>
     </div>
   );
 };

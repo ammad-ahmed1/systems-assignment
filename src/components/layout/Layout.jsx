@@ -17,7 +17,7 @@ const Layout = () => {
       <Navbar />
       <div className="w-full ">
         <Hero />
-        <div className="w-60p  py-0 mx-auto">
+        <div className="w-50p mt-[200px] py-0 mx-auto">
           <Heading classNameProp="text-h2  font-serif my-6 ">
             Our digital agency will tailor marketing strategies to meet your
             unique business needs. Your digital transformation starts here!
