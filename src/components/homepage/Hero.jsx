@@ -15,7 +15,7 @@ const Hero = () => {
         className="relative md:absolute 
       bg-white/90 md:bg-white min-h-[400px] md:h-auto w-80p md:w-50p
       px-4 sm:px-6 md:px-8 py-8 md:py-16
-       top-8 md:top-15 lg:top-20 left-0 md:left-20  
+       top-8 md:top-12 lg:top-24 left-0 md:left-20  
       z-10 
       border-r-0 md:border-r-2 border-customPrimary"
       >

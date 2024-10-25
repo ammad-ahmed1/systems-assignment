@@ -9,11 +9,9 @@ import DigitalMarketingOverview from "../components/homepage/DigitalMarketingOve
 import ContactUs from "../components/homepage/ContactUs";
 import FAQs from "../components/homepage/FAQs";
 
-
 const HomePage = () => {
   return (
     <>
-
       <div className="w-full">
         <Hero />
         <div className="w-50p mt-[200px] py-0 mx-auto">
@@ -29,7 +27,7 @@ const HomePage = () => {
         <div>
           <ContactUsForm />
         </div>
-        <div className="w-95p lg:w-95p mx-auto mt-[120px]">
+        <div className="w-95p lg:w-90p mx-auto mt-[120px]">
           <Services />
         </div>
         <div className="bg-gradient-to-br from-[#cfdae6]/40 to-[#ffffff]  mt-[100px] py-[60px] px-[0px]">
@@ -44,7 +42,6 @@ const HomePage = () => {
         <div className="bg-customGray mt-[100px]">
           <FAQs />
         </div>
-
       </div>
     </>
   );
