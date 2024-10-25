@@ -35,6 +35,7 @@ module.exports = {
         customGray: "#fafbfc",
         customPrimary: "#23b3f1",
         customBorder: "#888888",
+        textColor: "#2b2b2b",
       },
       borderRadius: {
         btnRadius: "0.66em", // Add your custom border radius
