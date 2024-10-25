@@ -2,16 +2,20 @@ import React from "react";
 import { whyUsData } from "../../constants/data";
 import Card from "../shared/Card";
 import Heading from "../shared/Heading";
+import Underline from "../shared/Underline";
 
 const WhyUs = () => {
   return (
     <>
-      <div className="flex justify-center pt-[80px] px-[40px] pb-[20px] mx-auto">
-        <Heading classNameProp={"text-h3 font-serif text-enter mx-auto"}>
+      <div className="flex flex-col justify-center pt-[80px] px-[40px] pb-[20px] mx-auto">
+        <Heading
+          classNameProp={"text-h3 font-serif text-enter mx-auto text-center"}
+        >
           Why choose our digital agency?
         </Heading>
+        <Underline />
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 pt-[40px] px-[0px] lg:px-[20px] pb-[80px] max-w-[] mx-auto">
+      <div className="grid grid-cols-1  lg:grid-cols-3 gap-4 pt-[40px] px-[0px] lg:px-[20px] pb-[80px] max-w-[] mx-auto">
         {whyUsData.map((item, index) => (
           <div key={index} className="p-4">
             <Card

@@ -21,7 +21,7 @@ const Card = ({
       <Paragraph classNameProp={paragraphStyle}>{paragraph}</Paragraph>
       {isButton && (
         <Button
-          btnStyle="inline-flex py-[25px] px-[20px] bg-accent-3 text-white no-underline"
+          btnStyle="inline-flex py-[15px] px-[15px] bg-accent-3 text-white text-p2 no-underline"
           type="filled"
           onClick={console.log("I am clicked")}
         >

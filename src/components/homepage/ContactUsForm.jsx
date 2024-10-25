@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import CustomInput from "../shared/CustomInput";
 import Button from "../shared/CustomButton";
+import Underline from "../shared/Underline";
 
 const ContactUsForm = () => {
   const inputClass =
@@ -13,7 +14,7 @@ const ContactUsForm = () => {
       <div className="bg-white py-[30px] px-[25px] md:px-[180px] border-t-2 border-customPrimary rounded-lg shadow-md">
         <div className="px-auto">
           <h2 className="text-h2 text-center">Contact Us</h2>
-          <div className="h-0.5 w-7 bg-customPrimary rounded-[8px] my-4 md:my-5"></div>
+          <Underline />
           <CustomInput
             value={name}
             label={"First name"}

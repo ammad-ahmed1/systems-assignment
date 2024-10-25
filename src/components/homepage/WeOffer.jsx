@@ -4,9 +4,9 @@ import Card from "../shared/Card";
 
 const WeOffer = () => {
   return (
-    <div className="flex flex-col sm:flex-row  gap-4">
+    <div className="flex flex-col lg:flex-row  gap-8">
       {weOffer.map((item, index) => (
-        <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-4">
+        <div key={index} className=" p-4">
           {/* Responsive grid layout */}
           <Card
             heading={item.heading}

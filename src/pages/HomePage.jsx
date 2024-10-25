@@ -17,7 +17,7 @@ const HomePage = () => {
         <div>
           <Hero />
         </div>
-        <div className="w-full md:w-50p mt-[150px] md:mt-[250px] px-7 md:px-0 py-0 mx-auto">
+        <div className="w-full md:w-60p mt-[150px] md:mt-[250px] px-7 md:px-0 py-0 mx-auto">
           <div className="relative">
             <CommaIcon />
             <div className="absolute top-[5px] bottom-0 left-0 right-0 px-4 py-2">
@@ -29,7 +29,7 @@ const HomePage = () => {
           </div>
         </div>
 
-        <div className="w-90p  mx-auto mt-[440px] md:mt-[300px]">
+        <div className="w-90p  mx-auto mt-[440px] md:mt-[250px] lg:mt-[180px]">
           <WeOffer />
         </div>
         <div>
