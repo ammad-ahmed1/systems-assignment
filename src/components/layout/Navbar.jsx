@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import CloseIcon from "../../icons/CloseIcon";
 
 const navItems = [
   { name: "Home", href: "#home" },
@@ -60,26 +61,24 @@ const Navbar = () => {
         </div>
 
         {/* {isOpen && ( */}
-        <div
-          className={`transition-opacity duration-200 ${
-            isOpen ? "opacity-100" : "opacity-0"
-          }`}
-        >
+        <div className="">
+          <div
+            className={`fixed inset-0 bg-white z-50 flex flex-col justify-start items-center transition-opacity duration-1000 ease-out
+          ${isOpen ? "opacity-100" : "opacity-0 pointer-events-none"}`}
           >
-          <div className="fixed inset-0 bg-white z-50 flex flex-col justify-start items-center ">
-            <button
-              className="close-button text-black m-4 self-end"
-              onClick={toggleMenu}
-            >
-              Close
-            </button>
             <div className="flex-grow flex justify-center items-start py-4">
               <ul className="flex flex-col space-y-4 text-center my-4">
+                <button
+                  className="close-button text-black m-4 mx-auto"
+                  onClick={toggleMenu}
+                >
+                  <CloseIcon />
+                </button>
                 {navItems.map(({ name, href }) => (
                   <li key={name}>
                     <a
                       href={href}
-                      className="py-2 text-lg hover:text-gray-400 font-serif text-[22px]"
+                      className="py-2 text-h2 hover:text-gray-400 font-serif text-[22px]"
                     >
                       {name}
                     </a>
