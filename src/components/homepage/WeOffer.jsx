@@ -1,6 +1,6 @@
 import React from "react";
-import { weOffer } from "../constants/data";
-import Card from "./shared/Card";
+import { weOffer } from "../../constants/data";
+import Card from "../shared/Card";
 
 const WeOffer = () => {
   return (

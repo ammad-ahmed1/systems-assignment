@@ -1,11 +1,11 @@
 import React from "react";
-import Heading from "./shared/Heading";
-import Paragraph from "./shared/Paragraph";
+import Heading from "../shared/Heading";
+import Paragraph from "../shared/Paragraph";
 
 const DigitalMarketingOverview = () => {
   const paragraphClasses = "text-p2 font-sans mb-[1.5em] ";
   return (
-    <div className="flex flex-col sm:flex-row justify-between px-[20px] gap-8">
+    <div className="flex flex-col sm:flex-row justify-between px-[0px] sm:px-[20px] gap-8">
       <div className="w-full ">
         <Heading classNameProp={"text-h3 font-serif my-6 text-left"}>
           Maximise Your Online Impact

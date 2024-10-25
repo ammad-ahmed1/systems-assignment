@@ -9,9 +9,9 @@ const CustomInput = ({
   classNameProp,
 }) => {
   return (
-    <div>
-      <div className="">
-        <label>{label}</label>
+    <div className="mx-auto">
+      <div className="text-left">
+        <label className="text-left">{label}</label>
       </div>
       {isTextArea ? (
         <textarea

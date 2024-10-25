@@ -1,13 +1,13 @@
 import React from "react";
-import Heading from "./shared/Heading";
-import Paragraph from "./shared/Paragraph";
-import { faqsData } from "../constants/data";
-import Button from "./shared/CustomButton";
+import Heading from "../shared/Heading";
+import Paragraph from "../shared/Paragraph";
+import { faqsData } from "../../constants/data";
+import Button from "../shared/CustomButton";
 
 const Services = () => {
   const paragraphClasses = "text-p2 font-sans mb-[1.5em] color-red-500";
   return (
-    <div className="flex flex-col md:flex-row justify-between px-[20px] gap-8">
+    <div className="flex flex-col lg:flex-row  justify-between px-[0px] md:px-[20px] gap-8 sm:gap-2">
       <div>
         <Heading classNameProp={"text-h3 font-serif my-6 text-left"}>
           Digital agency services for small businesses

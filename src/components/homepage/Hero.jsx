@@ -1,24 +1,21 @@
 import React from "react";
-import Heading from "./shared/Heading";
-import Button from "./shared/CustomButton";
+import Heading from "../shared/Heading";
+import Button from "../shared/CustomButton";
 
 const Hero = () => {
   return (
     <div className="relative w-full min-h-[500px] md:h-[500px]">
-      {/* Image Section */}
       <div className="absolute inset-0 flex justify-end">
         <div
-          className="w-full md:w-[85%] sm:w-full h-[600px] bg-[url('/hero-img.jpg')] 
+          className="w-full md:w-[85%] sm:w-full h-[650px] bg-[url('/hero-img.jpg')] 
         bg-cover bg-center md:bg-right z-0"
         ></div>
       </div>
-
-      {/* Content Section */}
       <div
-        className="relative md:absolute w-full w-[280px] md:w-[60%] lg:w-[50%] 
-      bg-white/90 md:bg-white min-h-[400px] md:h-auto
+        className="relative md:absolute 
+      bg-white/90 md:bg-white min-h-[400px] md:h-auto w-80p md:w-50p
       px-4 sm:px-6 md:px-8 py-8 md:py-16
-      top-20
+       top-8 md:top-15 lg:top-20 left-0 md:left-20  
       z-10 
       border-r-0 md:border-r-2 border-customPrimary"
       >

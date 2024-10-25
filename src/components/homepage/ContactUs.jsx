@@ -1,7 +1,7 @@
 import React from "react";
-import Heading from "./shared/Heading";
-import Paragraph from "./shared/Paragraph";
-import Button from "./shared/CustomButton";
+import Heading from "../shared/Heading";
+import Paragraph from "../shared/Paragraph";
+import Button from "../shared/CustomButton";
 
 const ContactUs = () => {
   return (

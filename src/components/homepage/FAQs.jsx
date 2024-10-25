@@ -1,10 +1,10 @@
 import React from "react";
-import { faqsData } from "../constants/data";
-import Card from "./shared/Card";
+import { faqsData } from "../../constants/data";
+import Card from "../shared/Card";
 
 const FAQs = () => {
   return (
-    <div className="flex flex-wrap justify-center pt-[100px] px-[20px] pb-[80px] w-90p mr-auto ml-auto">
+    <div className="flex flex-wrap justify-center pt-[100px] px-[0px] lg:px-[20px] pb-[80px] w-90p mr-auto ml-auto">
       {faqsData.map((item, index) => (
         <div key={index} className="w-full sm:w-1/2  p-4">
           {" "}
